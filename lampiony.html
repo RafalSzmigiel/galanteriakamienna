@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+	<meta charset = "utf-8" /> 
+	<meta http-equiv= " X-UA-Compatible" content = " IE = edge, chrome = 1" />
+	<link rel="stylesheet" href="StyleCss.css" type="text/css" />
+	
+	<title>Galanteria Kamienna Szmigiel </title>
+	
+	<meta name = "description" content = "Galanteria Kamienna Szmigiel. Oferujemy wysokiej jakości wyroby z 		granitu, w sprzedaży posiadamy wazony, lampiony, misy, krzyże, kolumny, urny oraz wykonujemy indywidualne zamówienia klienta. Zapraszamy do zapoznania sie z naszą oferta." />
+	
+	<meta name ="keywords" content = "Galanteria nagrobkowa, wazony, lampiony, misy, kolumny, krzyże, urny, 	granit, kamień" />
+	
+</head>
+
+<body>
+
+	<div id="container" >
+		
+		<div id="logo">
+		GalanteriaKamienna.pl
+		</div>
+		
+		<div class="menu">
+			<ol>
+				<li><a href="index.html">Strona Główna</a></li>
+				<li><a href="o firmie.html">O Firmie</a></li>
+				<li><a href="#">Oferta</a>
+					<ul>
+						<li><a href="wazony.html">Wazony</a></li>
+						<li><a href="misy.html">Misy</a></li>
+						<li><a href="lampiony.html">Lampiony</a></li>
+						<li><a href="urny.html">Urny</a></li>
+						<li><a href="kulowazony.html">Kulowazony</a></li>
+						<li><a href="krzyze.html">Krzyze</a></li>
+						<li><a href="inne.html">Inne</a></li>
+					</ul>
+				</li>
+				<li><a href="zamowienia.html">Zamówienia</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ol>
+		</div>
+		
+		
+		<div id="content">
+		
+			<div class="img2">
+			<img src="img lampiony/l3.jpg"/>
+			</div>
+			<div class="img2">
+			<img src="img lampiony/l4.jpg"/>
+			</div>
+			<div class="img2">
+			<img src="img lampiony/l10.jpg"/>
+			</div>
+			<div style="clear:both;"></div>
+			
+			<div class="img2">
+			<img src="img lampiony/l7.jpg"/>
+			</div>
+			<div class="img2">
+			<img src="img lampiony/l8.jpg"/>
+			</div>
+			<div class="img2">
+			<img src="img lampiony/l9.jpg"/>
+			</div>
+			<div style="clear:both;"></div>
+			
+			<div class="img2">
+			<img src="img lampiony/l6.jpg"/>
+			</div>
+			<div class="img2">
+			<img src="img lampiony/l11.jpg"/>
+			</div>
+			<div class="img2">
+			<img src="img lampiony/l12.jpg"/>
+			</div>
+			<div style="clear:both;"></div>
+			
+			<div class="img2">
+			<img src="img lampiony/l2.JPG"/>
+			</div>
+			<div style="clear:both;"></div>
+			
+		</div> 
+		
+	
+		
+		<div id="footer">Galanteria Kamienna Szmigiel 2016 &copy; All Rights Reservd</div>
+		
+	</div>
+	
+	<script src="jquery-1.11.3.min.js"></script>
+	
+	<script>
+
+	$(document).ready(function() {
+	var NavY = $('.menu').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.menu').addClass('sticky');
+	} else {
+		$('.menu').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>
+	
+
+</body>
+
+</html>

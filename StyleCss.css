@@ -1,0 +1,172 @@
+body
+{
+	background-color: #404040;
+	
+}
+	#container
+	{
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#logo
+	{
+		font-size: 44px;
+		color: white;
+		text-align: center;
+		padding: 20px;
+	}
+	.menu
+	{
+		color: white;
+		background-color:#303030;
+		margin-bottom: 25px;
+		min-width: auto;
+		text-align:center;
+	
+	}
+	#content
+	{
+		background-color: lightgrey;
+		padding: 20px;
+		width: 930px;
+		height: auto;
+		margin: auto;
+	}
+	#footer
+	{
+	
+		clear: both;
+		background-color:#303030;
+		color: white;
+		text-align: center;
+		padding:25px;
+		margin-top:10px;
+	
+	}	
+	
+.option
+{
+	text-align: center;
+	float: left;
+	min-width: 200px;
+	height: 25px;
+	font-size: 18px;
+	padding: 20px;
+	border-right: 2px dotted #444444;
+	opacity: 0.8;
+}
+
+.option:hover
+{
+	background-color: #000000;
+	cursor: pointer;
+}
+.img
+{
+	float:left;
+	margin: 7px;
+	
+	
+	
+}
+.img:hover
+{
+	background-color: #000000;
+}
+.img2
+{
+	float:left;
+	margin: 20px;
+}
+.img2:hover
+{
+	background-color: #000000;
+}
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.text
+{
+	color:black;
+	font-size: 24px;
+
+}
+ol
+{
+	margin-bottom: 20px;
+	min-width: auto;
+	text-align:center;
+	list-style-type: none;
+	font-size: 20px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #444444;
+}
+
+ol > li:first-child
+{
+	border-left: 1px dashed #444444;
+}
+
+ol > li:hover
+{
+	background-color: #000000;
+}
+
+ol > li:hover > a
+{
+	color: white;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color:#303030;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #444444;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #000000;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: white;
+}
